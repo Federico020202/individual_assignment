@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+
+   <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+   <link rel="stylesheet" href="/static/css/styles.css">
+
+   <title>main</title>
+</head>
+<body>
+   <!--==================== HEADER ====================-->
+   <!-- header.html -->
+
+   {% include 'header.html' %}
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== NEWS ====================-->
+      <section class="new section" id="new">
+         <div class="new__container container grid">
+            <div class="new__data">
+               <h2 class="section__title bbh">
+                 CHECK OUR <br><span class="sso">Surveillance</span> Tools<br>
+               DATABASE
+               </h2>
+
+               <p class="new__description">
+                  My aim is to create a website where are going to be showcased the multiple devices within the possibility to read all the data about em, compare which company detained the head of the marked and within which product.
+                  </p>
+                  <p>Explore a curated database of 500 surveillance companies. <br>
+                     Gain comprehensive insights into product details, market leaders, and emerging technologies. <br>
+                     Discover the latest advancements and stay ahead of the curve with SII.</p>
+            </div>
+
+            <div class="new__content grid">
+               <article class="new__card">
+                  <img src="/static/img/cpdetails.png" alt="image" class="new__img">
+                  <h2 class="new__title">Company Data</h2>
+               </article>
+
+               <article class="new__card">
+                  <img src="/static/img/prodtcs.png" alt="image" class="new__img">
+                  <h2 class="new__title">Products Details</h2>
+               </article>
+
+               <article class="new__card">
+                  <img src="/static/img/technology.png" alt="image" class="new__img">
+                  <h2 class="new__title">Usage Info</h2>
+               </article>
+            </div>
+         </div>
+      </section>
+
+      <section class="care section" id="care">
+         <h2 class="section__title">
+            FULL PRODUCS <br> ANALYSIS
+         </h2>
+
+         <div class="care__container container grid">
+            <img src="/static/img/dvanalisis.png" alt="image" class="care__img">
+
+            <ul class="care__list">
+               <li class="care__item">
+                  <i class="ri-checkbox-fill"></i>
+                  <p>
+                     Analysis of potential attack targets.
+                  </p>
+               </li>
+
+               <li class="care__item">
+                  <i class="ri-checkbox-fill"></i>
+                  <p>
+                     Producer companies and their locations,.
+                  </p>
+               </li>
+
+               <li class="care__item">
+                  <i class="ri-checkbox-fill"></i>
+                  <p>
+                     Details regarding the type of technology & its usage.
+                  </p>
+               </li>
+            </ul>
+         </div>
+      </section>
+
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   
+
+   {% include 'footer.html' %}
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="/static/js/scrollreveal.min.js"></script>
+   <!--=============== MAIN JS ===============-->
+   <script src="/static/js/main.js"></script>
+</body>
+</html>
